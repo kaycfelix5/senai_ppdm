@@ -2,7 +2,7 @@ import { View , Text , StyleSheet } from 'react-native';
 
 export default function Header({titulo}){
     return(
-        <View style={estilo.container}>
+        <View style={estilos.container}>
             <Text style={estilos.titulo}>{titulo}</Text>
             <Text style={estilos.subtitulo}>Organize suas atividades diárias</Text>
         </View>
@@ -11,7 +11,7 @@ export default function Header({titulo}){
 
 const estilos = StyleSheet.create ({
     container:{
-        backgroundColor: '#08a01f',
+        backgroundColor: '#0960ac',
         paddingVertical: 20,
         paddingHorizontal: 16,
         alignItems: 'center'
@@ -20,12 +20,12 @@ const estilos = StyleSheet.create ({
     titulo:{
         fontSize: 24,
         fontWeight: 700,
-        color: '#e06767',
+        color: '#ffffff',
     },
 
     subtitulo:{
         fontSize: 14,
-        color: '#3c01ff'
+        color: '#ffffff'
     }
 
 })
